@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Nerko One', cursive;
+	font-weight: 300;
+}
+
+
+.row {
+	max-width: 100vw;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+
+.row:after {
+    clear:both;
+}
+
+/*--HOME--*/
+
+.w1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(LABORATORIO-1080x675.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+h1,h4{
+	text-align: center;
+}
+
+h1{
+	font-size: 200%;
+	margin-bottom: 120px;
+	padding-top: 100px;
+} 
+
+h4{
+	margin: 50px 0;
+}
+
+h2{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.buttons{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	padding: 20px 0;
+	
+}
+
+a:link,
+a:visited{
+	text-decoration: none;
+	color: #04b8ff;
+	font-size: 25px;
+	border: 2px solid rgb(0, 132, 255);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 0 10px;
+	background-color: #111a68;
+	width: 130px;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+a:hover,
+a:active{
+	background-color: #111;
+}
+
+
+/*--SOLICITUD--*/
+
+.w2{
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(w2.jpg);*/
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgb(36, 10, 10);
+	height: 100%;
+	padding: 0 10%;
+}
+
+h3{
+	font-size: 200%;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 40px;
+}
+
+h5{
+	padding-top: 35px;
+	text-align: center;
+}
+
+.inf{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.inf2{
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	/*margin: 0 20px 0 20px;*/
+}
+
+.infpadding > *
+{
+	margin-bottom: 1em;
+}
+
+p,
+input{
+	display: inline-block;
+}
+
+input{
+	margin: 7.6px 5px;
+}
+
+select{
+	/*width: 120px;
+	margin-right: 10px;*/
+}
+
+/*--SELECCION--*/
+
+.w3{
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(w3.jpg);*/
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	background-color: rgb(36, 10, 10);
+	padding-top: 150px; 
+	color: black;
+}
+
+#my_form select{
+	color: black;
+}
+
+.w3 h3{
+	padding-top: 20px;
+	margin-bottom: 70px;
+}
+
+.examenes{
+	/*height: 20px;
+	margin: 7px 10px;*/
+}
+
+/*--RESULTADO--*/
+
+.w4{
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	background-color: rgb(36, 10, 10);
+}
+
+.w4 p{
+	margin: 0 8px;
+}
+
+.w4 select{
+	/*margin: 7.5px 6px;*/
+}
+
+.inf select > option
+{
+	color: #000000;
+}
+.ml{
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
